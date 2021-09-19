@@ -16,13 +16,13 @@ const ReachUs = () => {
                     </div>
                     <div className="reach-us-links">
                         <p>
-                            Order or Dine at <a href="https://zomato.com/lucknow/the-diners-chowk" target="_blank" >Zomato</a>
+                            Order or Dine at <a href="https://zomato.com/lucknow/the-diners-chowk"  >Zomato</a>
                         </p>
                         <p>
                             Call us at <a href="tel:919129860550">+919129860550</a>
                         </p>
                         <p>
-                            Follow us on <a href="https://www.facebook.com/thedinersrestaurant" target="_blank">Facebook</a>
+                            Follow us on <a href="https://www.facebook.com/thedinersrestaurant" >Facebook</a>
                         </p>
                     </div>
                 </div>
