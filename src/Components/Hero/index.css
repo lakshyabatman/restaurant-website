@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap'); */
+.hero-container {
+    margin-top: 3rem !important;
+}
+
+
+.hero {
+    background-color: #F9F3EA;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+
+
+
+
+.hero-content-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.hero-content h1 {
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 4.5rem;
+    
+}
+
+.hero-content-img-container {
+    text-align: end;
+}
+
+.hero-content-img-container img {
+    height: 40vw;
+    box-shadow: 1px 3px 8px grey;
+}
+
+
+@media (max-width:1200px) {
+    .floating-img {
+        height: 25vw !important;
+    } 
+}
+
+@media (max-width:720px) {
+    .hero-content-box  {
+        grid-template-columns: auto;
+    }
+    .hero-img {
+        text-align: center;
+        
+    }
+    .hero-img img {
+        min-height: 300px;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width:420px) {
+    .hero-content {
+        margin: 0;
+    }
+} 

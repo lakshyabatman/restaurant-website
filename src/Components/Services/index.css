@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.services {
+    background-color: #332313;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+}
+
+.services * {
+    color: white !important;
+}
+
+.service-content-img-container {
+    text-align: start;
+    position: relative;
+    margin-left: 2rem;
+    
+}
+
+.services-content h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+}
+
+.service-content-img-container img {
+    box-shadow: 1px 3px 20px rgb(54, 180, 85);
+    border:1 transparent;
+    border-radius: 20px;
+    
+}
+
+
+.floating-img {
+    position: absolute;
+    box-shadow: none  !important;
+    border: 0;
+    top:-5rem;
+    right: 0;
+    max-height: 300px;
+
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+}
+
+@media (max-width:300px) {
+    .service-grid {
+        grid-template-columns: auto;
+    }
+}
+
+
+@media (max-width:720px) {
+    .services {
+        padding-top: 0;
+    }
+    .chef-img {
+        display: none;
+    }
+    .floating-img {
+        position: static;
+        height: 300px !important;
+    }
+    .services-content {
+        padding-bottom: 5rem;
+    }
+    .service-content-img-container {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .chef-img {
+        height: 34vw !important;
+    }    
+}

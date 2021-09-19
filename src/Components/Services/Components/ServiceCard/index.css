@@ -1,0 +1,21 @@
+.service-card {
+    display: flex;
+    max-width: 14rem;
+    align-items: center;
+}
+
+.service-card .icon {
+    font-size: 2rem;
+}
+
+.service-card .content {
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+
+@media (max-width:420px) {
+    .icon {
+        margin: 0 !important;
+    }
+}

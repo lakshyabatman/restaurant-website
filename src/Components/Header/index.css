@@ -1,0 +1,17 @@
+.header {
+    background-color: #F9F3EA !important;
+}
+.header-menu-hamburger {
+    display: none;
+}
+
+@media (max-width:500px) {
+    .header-menu {
+        display: none;
+    }
+    .header-menu-hamburger {
+        display: block;
+    }
+    
+}
+
