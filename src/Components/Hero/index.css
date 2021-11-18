@@ -30,7 +30,13 @@
 .hero-content h1 {
     font-family: 'Birthstone Bounce', cursive;
     font-size: 4.5rem;
+    line-height: 5rem;
+    margin-bottom: 2rem !important;
     
+}
+
+.hero-content p {
+    font-size: 1.2rem;
 }
 
 .hero-content-img-container {

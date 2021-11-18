@@ -25,8 +25,9 @@ const Services = () => {
                 <div className="hero-content services-content">
                 <h1>We are more than multiple service</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum magni consectetur, debitis possimus culpa blanditiis dolore perferendis quam consequatur, 
-                    libero quo eius quia. Molestias quaerat necessitatibus voluptatum minima culpa facilis.
+                        From enjoying delicious food delivered right at your doorstep to fancy dinners and celebrating special occasions, we have you covered.
+                        <br/>
+                        We accept decoration requests a day before the event.                
                 </p>
                 <div className="service-grid">
                     {serviceList}

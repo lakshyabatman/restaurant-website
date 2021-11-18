@@ -30,7 +30,7 @@ const FeaturedDishes = () => {
                 cover={<img alt="example" src={Sandwiches} className="card-img" />}
             >
                 <Rate allowHalf disabled defaultValue={4} style={{marginBottom:5}}/>
-                <Card.Meta title="Grilled Cheese Sandwich" description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus accusamus corporis eveniet velit quam atque eius maxime" />
+                <Card.Meta title="Grilled Cheese Sandwich" description="A crusty delight with a hearty filling of vegetables and cheddar cheese grilled to perfection." />
             </Card>
             <Card
                 hoverable
@@ -38,7 +38,7 @@ const FeaturedDishes = () => {
                 cover={<img alt="example" src={Salad} className="card-img" />}
             >
                 <Rate allowHalf disabled defaultValue={4.5} style={{marginBottom:5}} />
-                <Card.Meta title="Greek Salad" description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus accusamus corporis eveniet velit quam atque eius maxime" />
+                <Card.Meta title="Greek Salad" description="A refreshing blend of crunchy greens, tangy Roma tomatoes, garden-fresh red onions, Kalamata olives with sliced feta cheese enveloped in our special greek salad dressing." />
             </Card>
             <Card
                 hoverable
@@ -46,7 +46,7 @@ const FeaturedDishes = () => {
                 cover={<img alt="example" src={Pasta} className="card-img"/>}
             >
                 <Rate allowHalf disabled defaultValue={5} style={{marginBottom:5}}/>
-                <Card.Meta title="White Sauce Pasta" description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus accusamus corporis eveniet velit quam atque eius maxime" />
+                <Card.Meta title="White Sauce Pasta" description="A creamy fusion of penne and cheese sauteed with broccoli, bell peppers, and onions." />
                 
             </Card>
             <Card
@@ -55,7 +55,7 @@ const FeaturedDishes = () => {
                 cover={<img alt="example" src={Pancakes} className="card-img"/>}
             >
                 <Rate allowHalf disabled defaultValue={4.5} style={{marginBottom:5}} />
-                <Card.Meta title="Pancakes" description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus accusamus corporis eveniet velit quam atque eius maxime"/>
+                <Card.Meta title="Pancakes" description="Classic fluff pancakes topped with butter and served with maple syrup on the side."/>
             </Card>
             </div>
         </div>

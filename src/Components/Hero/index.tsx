@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="hero-content-box">
                     <div className="hero-content">
                         <h1>We serve the best <span style={{color:'red'}}>taste</span></h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus accusamus corporis eveniet velit quam atque eius maxime, itaque provident pariatur quis, optio sed exercitationem mollitia harum sapiente maiores neque magnam.</p>
+                        <p>Fresh ingredients combined with a commitment to please is the secret to an incredible dining experience. Our philosophy is simple — we are devoted to serving the best taste</p>
                     </div>
                     <div className="hero-content-img-container hero-img">
                             <img src={HeroImage} />
